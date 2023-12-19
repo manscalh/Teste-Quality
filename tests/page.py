@@ -1,0 +1,32 @@
+"""The Page implementation."""
+
+class Page:
+    """Set Page codes."""
+    
+    LOGIN_PAGE_MESSAGE_BLOCKED_USER = "Epic sadface: Sorry, this user has been locked out."
+    LOGIN_PAGE_EMPTY_USER = "Epic sadface: Username is required"
+    LOGIN_PAGE_EMPTY_PASSWORD = "Epic sadface: Password is required"
+    LOGIN_PAGE_INVALID_PASSWORD = "Epic sadface: Username and password do not match any user in this service"
+    MAIN_PAGE_PASSWORD_ALL_USERS = "Password for all users:\nsecret_sauce"
+    INVENTORY_TITLE = "Products"
+    CART_PAGE_TITLE = "Your Cart"
+    CHECKOUT_PAGE_TITLE = "Checkout: Your Information"
+    CHECKOUT_PAGE_OVERVIEW = "Checkout: Overview"
+    CHECKOUT_PAGE_COMPLETE = "Checkout: Complete!"
+    CHECKOUT_FIRTNAME_REQUERID = "Error: First Name is required"
+    CHECKOUT_LASTNAME_REQUERID = "Error: Last Name is required"
+    CHECKOUT_ZIPCODE_REQUERID = "Error: Postal Code is required"
+    CHECKOUT_FIRTNAME_TEXT = "a"
+    CHECKOUT_LASTNAME_TEXT = "a"
+    CHECKOUT_ZIPCODE_TEXT = "a"
+    CHECKOUT_FIRTNAME_EMPTY = ""
+    CHECKOUT_LASTNAME_EMPTY = ""
+    CHECKOUT_ZIPCODE_EMPTY = ""
+    SORT_Z_TO_A = "Name (Z to A)"
+    SORT_A_TO_Z = "Name (A to Z)"
+    SORT_PRICE_LOW_TO_HIGH = "Price (low to high)"
+    SORT_PRICE_HIGH_TO_LOW = "Price (high to low)"
+    CART_ADD_REMOVE_SAUCE_LABS_BACKPACK_TEXT = "Sauce Labs Backpack"
+    CART_ADD_REMOVE_SAUCE_LABS_BACKPACK_PRICE = "29.99"
+    CART_ADD_QTD_1 = '1'
+    CART_EMPTY_QTD = ''
