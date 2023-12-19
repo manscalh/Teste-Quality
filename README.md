@@ -1,3 +1,6 @@
+# Prerequisites
+* python 
+
 # Install Linux
 
 * open new terminal in project root folder
@@ -14,4 +17,4 @@
 * install new venv: python -m venv .venv
 * activate venv:  .\.venv\Scripts\activate
 * install dependencies: pip install -r requirements.txt
-* to execute all tests: python -m unittest  -v tests/Test*.py
+* to execute all tests: python -m unittest discover -v "Test*.py" -s tests
